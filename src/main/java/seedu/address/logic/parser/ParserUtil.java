@@ -129,7 +129,7 @@ public class ParserUtil {
      *
      * @throws ParseException if the given {@code address} is invalid.
      */
-    public static Remark parseRemark(String remark){
+    public static Remark parseRemark(String remark) {
         String trimmedAddress = remark.trim();
         return new Remark(remark);
     }
